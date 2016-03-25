@@ -1,0 +1,415 @@
+/* Header */
+header{
+    /* None */
+}
+
+hgroup{
+  /* None */
+}
+
+/* Body */
+body{
+  background-color: white;
+  max-width: 960px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  border-radius: 25px;
+
+  /* TODO: Add box shadow*/
+
+  padding: 30px;
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  font-family: garamond;
+  position: relative;
+  line-height: 140%;
+}
+
+footer.entry-meta{
+  font-size: 10pt;
+}
+
+/* Other HTML elements */
+html{
+  background-color: #DAE0DD;
+}
+
+/* div's */
+div{
+  overflow: hidden;
+}
+
+div.site-content{
+
+  max-width: 100%;
+  max-height: auto;
+
+  overflow-y: hidden;
+
+}
+
+/* Secondary div*/
+div.widget-area{
+
+  max-width: 100%;
+  max-height: auto;
+}
+
+div.comments-link{
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+/* Sections */
+section{
+  /*Do something?*/
+}
+
+/* Headers */
+h1{
+  font-family: garamond;
+  font-size: 20pt;
+  color: black;
+}
+
+/* Joe User title */
+h1.site-title{
+  letter-spacing: 20px;
+  font-size: 50px;
+  text-align: center;
+
+  border-bottom: 2px dotted #000;
+}
+
+/* Article title */
+h1.entry-title{
+  font-family: georgia;
+  font-size: 14px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h2{
+  font-family: garamond;
+}
+
+/* My Blog. color */
+h2.site-description{
+
+  letter-spacing: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+h3{
+  font-family: garamond;
+  font-size: 10pt;
+}
+
+h3.widget-title{
+  font-weight: bold;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  cursor:pointer;
+
+  border: 2px solid #000000;
+
+  width: 98%;
+
+  text-align:center;
+
+  box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+
+  display: block;
+
+  position: relative;
+
+    border-radius: 10px;
+}
+
+h3.widget-title:hover{
+    background-color: #DAE0DD;
+}
+
+#menu-main{
+    -webkit-user-select:none;
+}
+
+/*Menu Button -- This menu should translate to mobile fairly well*/
+.menu-toggle{
+    cursor:pointer;
+    border: 2px solid #000000;
+    width: 90%;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    position: relative;
+    margin-left: 2%;
+    overflow:visible;
+
+      border-radius: 10px;
+}
+
+.menu-main-container{
+  height: 108px;
+  width: 100%;
+  display: none;
+
+  overflow:hidden;
+  overflow-y: scroll;
+  margin-left: 2%;
+
+}
+
+.nav-menu li{
+  float: left;
+  width: 90%;
+  margin-top: 1%;
+}
+
+
+
+/* Basic menu item style */
+.menu-item{
+  cursor:pointer;
+  text-align:center;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  border: 1px solid black;
+  width:100%;
+  box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: block;
+
+    border-radius: 10px;
+
+}
+
+
+ul.sub-menu{
+  height: 43px;
+  width: 100%;
+  display: none;
+
+  overflow:hidden;
+  overflow-x: scroll;
+
+}
+li.menu-item-726{
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+
+}
+
+
+h3.widget-title + ul {
+  width: auto;
+  height: 108px;
+  position: relative;
+  overflow:hidden;
+  overflow-y: scroll;
+  display: none;
+}
+
+.cat-item, aside#archives-2 > h3.widget-title + ul > li{
+  cursor:pointer;
+  border: 1px solid #000000;
+  width: 98%;
+  text-align:center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 3%;
+  margin-left: .25%;
+  margin-bottom: 5px;
+  box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+  display: block;
+
+    border-radius: 10px;
+}
+
+.cat-item:hover, aside#archives-2 > h3.widget-title + ul > li:hover{
+  background-color: #DAE0DD;
+}
+
+/* Menu item style for hovering */
+.menu-item:hover, .menu-toggle:hover{
+  background-color: #DAE0DD;
+}
+.menu-item:hover, .menu-toggle:hover{
+  background-color: #DAE0DD;
+}
+
+/* Link style */
+a {
+  color: black;
+  text-decoration: none;
+  line-height: 150%;
+}
+
+/* Link style for hovering */
+a:hover {
+  color: lightgray;
+}
+
+/* "Skip to content" link. I have removed it because I find it kind of useless.*/
+a.assistive-text{
+  display: none;
+}
+
+/* Ordered lists */
+ol{
+  list-style-type: upper-roman;
+}
+
+/* Unordered list */
+ul{
+  list-style-type: circle;
+}
+
+/* Single element */
+li{
+  list-style-type: circle;
+  font-family: garamond;
+  font-size: 12px;
+}
+
+div.entry-content > p + ul > li{
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+li.cat-item{
+  display: none;
+}
+
+h3.widget-title + ul > li{
+  display: none;
+}
+
+/* Paragraphs */
+p{
+  font-family: garamond;
+  font-size: 12px;
+  position: relative;
+  overflow: auto;
+
+  line-height: 140%;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* nav */
+nav.navigation{
+  text-align: left;
+
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000;
+}
+
+#nav-previous > a{
+  font-size: 12px;
+}
+
+
+/* Tables */
+table{
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 60%;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+th{
+  /*Do something?*/
+  font-family: garamond;
+  padding: 2px;
+  text-align:center;
+}
+
+td{
+  font-family: garamond;
+  padding: 2px;
+  text-align:center;
+}
+
+tr{
+  /*Do something?*/
+  font-family: garamond;
+  padding: 2px;
+  text-align:center;
+}
+
+/* Not really sure yet... */
+caption{
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/* Article --> Have solid border around them */
+article{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 10px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+  position: relative;
+}
+
+/* Pre --> Code snippets */
+pre{
+  padding: 10px;
+
+  font-size: 10px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 10px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  overflow-x: scroll;
+}
+
+span{
+  /*None so far*/
+}
+
+span.leave-reply{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+aside.widget{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
